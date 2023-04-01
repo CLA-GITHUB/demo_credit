@@ -1,0 +1,26 @@
+{
+  "name": "demo_credit",
+  "version": "1.0.0",
+  "description": "Welcome to Demo Credits APIs, which contails enpoints for borrowers to receive loans they have been granted and also send money for repyments.",
+  "main": "server.js",
+  "repository": "https://github.com/CLA-GITHUB/demo_credit.git",
+  "author": "Livingstone Christwealth",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "npx tsc && node ./dist/server.js",
+    "watch": "npx tsc --watch",
+    "dev": "nodemon ./dist/server.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.15.11",
+    "@types/nodemon": "^1.19.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
